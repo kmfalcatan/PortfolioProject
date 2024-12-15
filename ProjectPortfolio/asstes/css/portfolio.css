@@ -6,39 +6,46 @@ body{
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .container{
     outline: red dashed 1px;
+    overflow-x: hidden;
 }
 
 .headerContainer{
     outline: red dashed 1px;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgb(39, 54, 59);
 }
 
 .headerButton{
-    height: 2.5rem;
-    width: 4rem;
+    height: 2rem;
+    width: 3rem;
     background-color: transparent;
-    font-size: 1rem;
     border: none;
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
     transition: all 0.15s;
+    outline: red dashed 1px;
 }
 
 .headerButton:hover{
     transform: scale(1.1);
     background-color: rgb(153, 185, 152);
     color: black;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .headerButton:active{
@@ -51,18 +58,233 @@ body{
 
 .subContainer{
     outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .nameContainer{
     outline: red dashed 1px;
-    height: 4rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: clamp(2rem, 10vw, 4rem);
     font-weight: bold;
+    margin-top: 5rem;
+    text-align: center;
 }
 
 span{
     color: rgb(253, 85, 76);
+}
+
+.background{
+    outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.subBackground{
+    outline: red dashed 1px;
+    height: 90%;
+    width: 33rem;
+    border-radius: 100rem;
+    background-color: rgb(153, 185, 152);
+    filter: blur(60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBackground1{
+    outline: red dashed 1px;
+    height: 60%;
+    width: 20rem;
+    border-radius: 100rem;
+    background-color: rgb(253, 206, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    outline: red dashed 1px;
+    position: absolute;
+    top: 5.5rem;
+    text-align: center;
+    z-index: 1;
+    font-size: clamp(4.5rem, 15vw, 15rem);
+    font-weight: bold;
+    color: rgb(22, 30, 33);
+}
+
+.imageContainer{
+    outline: red dashed 1px;
+    position: absolute;
+    z-index: 1;
+}
+
+.image{
+    height: 29rem;
+}
+
+.aboutContainer{
+    outline: red dashed 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subAboutContainer{
+    outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.borderContainer{
+    border-radius:68% 32% 73% 27% / 52% 61% 39% 48% ;
+    background-color: rgb(153, 185, 152);
+    height: 100%;
+    width: 17.6rem;    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer{
+    outline: red dashed 1px;
+    height: 3rem;
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    z-index: 60;
+}
+
+.subIconContainer{
+    outline: red dashed 1px;
+    height: 100%;
+    width: 3rem;
+    border-radius: 5rem;
+    background-color: rgb(39, 54, 59);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+
+.subIconContainer:hover{
+    transform: scale(1.1);
+}
+
+.subIconContainer:active{
+    transform: scale(1);
+    box-shadow: none;
+}
+
+.image1{
+    height: 2rem;
+}
+
+.image3{
+    height: 100%;
+    width: 17.6rem;    
+    border-radius:68% 32% 73% 27% / 52% 61% 39% 48% ;
+}
+
+.aboutTextContainer{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.skillContainer{
+    outline: red dashed 1px;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillText{
+    outline: red dashed 1px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.skillPercent{
+    outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.subSkillPercent{
+    outline: red dashed 1px;
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.skillName{
+    color: white;
+    font-size: 1.2rem;
+    text-align: right;
+    width: 5rem;
+}
+
+.percentage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    outline: red dashed 1px;
+    height: 100%;
+}
+
+.lineContainer{
+    position: absolute;
+    width: 100%;
+    border: solid rgb(244, 131, 125) 0.5px;
+}
+
+.circle{
+    outline: red dashed 1px;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 5rem;
+    background-color: rgb(153, 185, 152);
+    left: 0;
+}
+
+.educationContainer{
+    outline: red dashed 1px;
+    height: 100vh;
 }
