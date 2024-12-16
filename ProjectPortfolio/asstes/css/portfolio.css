@@ -73,7 +73,6 @@ body{
     justify-content: center;
     font-size: clamp(2rem, 10vw, 4rem);
     font-weight: bold;
-    margin-top: 5rem;
     text-align: center;
 }
 
@@ -84,15 +83,16 @@ span{
 .background{
     outline: red dashed 1px;
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
     position: relative;
+    align-items: center;
 }
 
 .subBackground{
     outline: red dashed 1px;
-    height: 90%;
+    height: 65%;
     width: 33rem;
     border-radius: 100rem;
     background-color: rgb(153, 185, 152);
@@ -116,18 +116,23 @@ span{
 .textContainer{
     outline: red dashed 1px;
     position: absolute;
-    top: 5.5rem;
+    top: 19%;
     text-align: center;
-    z-index: 1;
+    z-index: -1;
     font-size: clamp(4.5rem, 15vw, 15rem);
     font-weight: bold;
     color: rgb(22, 30, 33);
+    width: 100%;
 }
 
 .imageContainer{
     outline: red dashed 1px;
     position: absolute;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
 }
 
 .image{
@@ -139,6 +144,7 @@ span{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-top: 4rem;
 }
 
 .subAboutContainer{
@@ -164,7 +170,7 @@ span{
     outline: red dashed 1px;
     height: 3rem;
     position: absolute;
-    bottom: 3rem;
+    bottom: 0rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -286,5 +292,136 @@ span{
 
 .educationContainer{
     outline: red dashed 1px;
-    height: 100vh;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.titleContainer{
+    outline: red dashed 1px;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.subEducationContainer{
+    outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subEducationContainer1{
+    outline: red dashed 1px;
+    border: solid rgb(244, 131, 125) 0.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.educContainer{
+    outline: red dashed 1px;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    margin-top: 2rem;
+}
+
+.logoContainer{
+    outline: red dashed 1px;
+    height: 2rem;
+    width: 2rem;
+    z-index: 1;
+    position: relative;
+}
+
+.image2, .image4, .image5{
+    height: 100%;
+    border-radius: 10rem;
+}
+
+.schoolContainer{
+    outline: red dashed 1px;
+    width: 10rem;
+    position: absolute;
+    top: 0;
+    right: 2.2rem;
+    background-color: rgb(153, 185, 152);
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    border: solid rgb(153, 185, 152) 1px;
+}
+
+.schoolContainer3{
+    outline: red dashed 1px;
+    width: 10rem;
+    left: 2.2rem;
+    top: 0;
+    position: absolute;
+    background-color: rgb(153, 185, 152);
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    border: solid rgb(153, 185, 152) 1px;
+}
+
+.schoolName{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: center;
+    background: url(../img/Untitled\ design.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.schoolName1{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: center;
+    background: url(../img/306282288_406081111676509_5325704502421477584_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.schoolName2{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: center;
+    background: url(../img/468118816_10234191232897617_4921271548182879303_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.schoolName3{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: center;
+    background: url(../img/Screenshot\ 2024-12-16\ 144922.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.background3{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.623), rgb(0, 0, 0));
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 0.5rem 0 0.5rem 0;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
 }
