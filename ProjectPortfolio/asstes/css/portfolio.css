@@ -709,6 +709,7 @@ span{
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .subSocialContainer{
@@ -736,4 +737,11 @@ span{
 .socialIcon{
     height: 2rem;
     filter: invert();
+}
+
+.textContainer1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
 }
