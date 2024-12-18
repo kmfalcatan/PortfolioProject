@@ -42,3 +42,75 @@ function type() {
 
 // Start the typing effect
 document.addEventListener("DOMContentLoaded", type);
+
+
+
+function close2(){
+    const closeButton = document.querySelector('.projectDescription');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close3(){
+    const closeButton = document.querySelector('.popup');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close4(){
+    const closeButton = document.querySelector('.popup1');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close5(){
+    const closeButton = document.querySelector('.popup2');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close6(){
+    const closeButton = document.querySelector('.popup3');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close7(){
+    const closeButton = document.querySelector('.popup4');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}
+
+function close8(){
+    const closeButton = document.querySelector('.popup5');
+
+    if(closeButton.style.display === 'none'){
+        closeButton.style.display = 'block';
+    } else{
+        closeButton .style.display = 'none'
+    }
+}

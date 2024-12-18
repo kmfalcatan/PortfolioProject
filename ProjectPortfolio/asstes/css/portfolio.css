@@ -294,6 +294,7 @@ span{
     outline: red dashed 1px;
     height: 50rem;
     overflow: hidden;
+    padding-top: 4rem;
 }
 
 .titleContainer{
@@ -424,4 +425,315 @@ span{
     padding: 0.5rem 0 0.5rem 0;
     gap: 0.5rem;
     border-radius: 0.5rem;
+}
+
+.projectContainer{
+    outline: red dashed 1px;
+    padding-top: 4rem;
+}
+
+.subProjectContainer{
+    outline: red dashed 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.project{
+    outline: red dashed 1px;
+    height: 12rem;
+    width: 20rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    border: solid rgb(153, 185, 152) 1px;
+    background-color: rgb(153, 185, 152);
+    position: relative;
+}
+
+.subProject{
+    outline: red dashed 1px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    top: 0;
+}
+
+.imageContainer1{
+    outline: red dashed 1px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image6{
+    outline: red dashed 1px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.description{
+    outline: red dashed 1px;
+    height: 6.5rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subDescription{
+    outline: red dashed 1px;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.buttonContainer{
+    outline: red dashed 1px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 1rem;
+}
+
+.button{
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: solid rgb(217, 217, 217) 1px;
+    color: rgb(217, 217, 217);
+}
+
+.button:active{
+    background-color: rgb(217, 217, 217);
+    color: black;
+    transform: scale(0.9);
+}
+
+.projectDescription{
+    outline: red dashed 1px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subProjectDescription{
+    outline: red dashed 1px;
+    width: 90%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0.5rem;
+}
+
+.titleContainer1{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem 0 0.5rem 0;  
+}
+
+.imageContainer2{
+    outline: red dashed 1px;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image8{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.descriptionContainer{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    overflow: auto;
+    height: 10rem;
+}
+
+.buttonContainer1{
+    outline: red dashed 1px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 1rem;
+}
+
+.button1{
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(153, 185, 152);
+    cursor: pointer;
+    transition: all 0.15s;
+    color: rgb(39, 54, 59);
+}
+
+.button1:hover{
+    background-color: transparent;
+    border: solid rgb(39, 54, 59) 1px;
+    color: rgb(39, 54, 59);
+}
+
+.button1:active{
+    background-color: rgb(153, 185, 152);
+    color: rgb(39, 54, 59);
+    transform: scale(0.9);
+    border: none;
+}
+
+.contactContainer{
+    outline: red dashed 1px;
+    padding-top: 4rem;
+}
+
+.imageContainer3{
+    outline: red dashed 1px;
+    height: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image9{
+    height: 100%;
+}
+
+.message{
+    outline: red dashed 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subMessage{
+    width: 90%;
+    height: 10rem;
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    background-color: rgb(253, 206, 170);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    font-family: 'Roboto';
+}
+
+.email{
+    outline: red dashed 1px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subEmail{
+    background-color: rgb(253, 206, 170);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    font-family: 'Roboto';
+    height: 3rem;
+    width: 90%;
+    border: none;
+    padding: 0 0 0 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.buttonContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+}
+
+.button2{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    background-color: rgb(153, 185, 152);
+}
+
+.button2:hover{
+    background-color: transparent;
+    border: solid rgb(153, 185, 152) 1px;
+    color: rgb(153, 185, 152);
+}
+
+.button2:active{
+    transform: scale(0.9);
+    box-shadow: none;
+    border: none;
+    background-color: rgb(153, 185, 152);
+    color: black;
+}
+
+.socialContainer{
+    outline: red dashed 1px;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.subSocialContainer{
+    height: 3rem;
+    border-radius: 5rem;
+    outline: red dashed 1px;
+    width: 3rem;
+    background-color: rgb(153, 185, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: all 0.15s;
+    cursor: pointer;
+}
+
+.subSocialContainer:hover{
+    transform: scale(1.1);
+}
+
+.subSocialContainer:active{
+    transform: scale(1);
+}
+
+.socialIcon{
+    height: 2rem;
+    filter: invert();
 }
